@@ -1,0 +1,10 @@
+package com.bk.leave.utcs;
+
+import org.junit.jupiter.api.Test;
+
+public class UnitTestCasesTest {
+	@Test
+public void testSendSms() {
+	
+}
+}

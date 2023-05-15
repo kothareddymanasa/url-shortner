@@ -1,0 +1,12 @@
+package com.bk.leave.utcs;
+
+public class UnitTestCases {
+public static String sendSms(String messageContent,String mobileNumber) {
+	if(messageContent==null||mobileNumber==null) return "enter valid details";
+	return "sms send successfully";
+}
+public int add(int a,int b) {
+	if(a<0||b<0) return 0;
+	return a+b;
+}
+}
